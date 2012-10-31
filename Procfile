@@ -1,1 +1,1 @@
-web: bundle exec puma -I. config.ru -t 8:32 -e production
+web: bundle exec thin start -e production -p 3000

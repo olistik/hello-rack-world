@@ -1,5 +1,7 @@
-require 'app'
-require 'middlewares'
+require './app'
+require './middlewares'
+
+$stdout.sync = true
 
 Middlewares.new(self)
 

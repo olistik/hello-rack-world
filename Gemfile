@@ -1,5 +1,6 @@
 source :rubygems
 
-gem 'puma'
+gem 'thin'
 gem 'rack'
 gem 'foreman'
+gem 'rack-fiber_pool'
